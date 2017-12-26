@@ -1,13 +1,3 @@
-# std-node(es6)
+# std-schma
 
 
-
-## dependent
-
-yarn global add create-react-app
-
-yarn global bin
-
-yarn add express
-
-yarn add --dev grunt

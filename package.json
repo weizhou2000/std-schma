@@ -1,5 +1,5 @@
 {
-  "name": "std-node",
+  "name": "std-schma",
   "version": "1.0.0",
   "description": "node project start",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "start-stage": "NODE_ENV=stage nodemon --exec babel-node ./src/index.js",
     "start1": "nodemon --exec babel-node ./src/t1.js",
     "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
-    "hint": "eslint src"
+    "hint": "eslint src",
+    "push": "git add . && git commit -m'mod' &&  git push origin master"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,14 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-tools": "^2.14.1",
+    "http": "^0.0.0"
   }
 }
